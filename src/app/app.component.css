@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;  
+    flex-flow: column wrap;
+    min-height: 100vh;
+    text-align: center;
+}
+
+  .content {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+  }
+.content p {
+    background-color: orange;
+    margin: 0;
+    flex: 75%;
+}
+li {
+    vertical-align: center;
+    flex: 1;
+}
+  .fruits {
+      flex:1 25%;
+      margin:0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+  }
+  .tomate {
+      background-color: tomato;
+      flex: 1;
+  }
+
+    .pomme {
+        background-color: greenyellow;
+        flex: 1;
+    }
+    .fraise {
+        background-color: red;
+        flex: 1;
+    }
+    .banane {
+        background-color: yellow;
+        flex: 1;
+    }
+
+  .header {
+    background: blueviolet;
+  }
+  
+  .footer {
+    background: lightgreen;
+  }
+  
+  
+  @media all and (min-width: 600px) {
+  }
+  
+  @media all and (max-width: 800px) {
+      .content {
+          flex-direction: column;
+      }
+  }
+  
